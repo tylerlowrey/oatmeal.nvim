@@ -114,6 +114,7 @@ function M.start()
     "open-ai-url",
     "theme",
     "theme-file",
+    "config-file",
   }
   for _, key in pairs(flags) do
     local config_name = string.gsub(key, "-", "_")
